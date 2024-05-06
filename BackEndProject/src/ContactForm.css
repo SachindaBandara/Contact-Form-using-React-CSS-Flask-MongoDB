@@ -1,0 +1,198 @@
+.contact {
+    background-color: white;
+    margin-top: 5%;
+    line-height: 1;
+  }
+  
+  h1.hire__text {
+    font-size: 64px;
+    color: #017a04;
+    text-align: left;
+  }
+  
+  h2.hire__text {
+    font-size: 32px;
+    color: black;
+    font-weight: 700;
+    text-align: left;
+  }
+  
+  p.hire__text {
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    padding-top: 2%;
+    font-weight: 500;
+  }
+  .input__box {
+    padding-top: 5%;
+    padding-left: 15%;
+  }
+  
+  input.contact {
+    display: block;
+    width: 85%;
+    padding: 0 20px;
+    border: 2px solid black;
+    border-radius: 0;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    height: 50px;
+    line-height: 46px;
+    margin: 15px 0px;
+    outline: none;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    background: none;
+  }
+  
+  .contact_sub_text {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  textarea#message {
+    height: 280px;
+    background: none;
+    padding: 0 20px;
+    width: 85%;
+    line-height: 46px;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    border: 2px solid black;
+    margin: 15px 0px;
+  }
+  
+  button.send__pointer {
+    padding: 10px 25px;
+    border-radius: 12px;
+    margin-left: 0%;
+    margin-top: 1%;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  
+  /* Resposive Screen */
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    h1.hire__text {
+      font-size: 50px;
+    }
+  
+    h2.hire__text {
+      font-size: 25px;
+      font-weight: 700;
+    }
+  
+    p.hire__text {
+      font-size: 15px;
+    }
+  
+    .contact_sub_text {
+      font-size: 18px;
+    }
+  
+    button.send__pointer {
+      font-size: 18px;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    h1.hire__text {
+      font-size: 50px;
+    }
+  
+    h2.hire__text {
+      font-size: 25px;
+      font-weight: 700;
+    }
+  
+    p.hire__text {
+      font-size: 15px;
+    }
+  
+    .contact_sub_text {
+      font-size: 18px;
+    }
+  
+    button.send__pointer {
+      font-size: 18px;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    h1.hire__text {
+      font-size: 56px;
+    }
+  
+    h2.hire__text {
+      font-size: 28px;
+      font-weight: 700;
+    }
+  
+    p.hire__text {
+      font-size: 16px;
+    }
+  
+    .contact_sub_text {
+      font-size: 19px;
+    }
+  
+    button.send__pointer {
+      font-size: 19px;
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    h1.hire__text {
+      font-size: 60px;
+    }
+  
+    h2.hire__text {
+      font-size: 30px;
+      font-weight: 700;
+    }
+  
+    p.hire__text {
+      font-size: 18px;
+    }
+  
+    .contact_sub_text {
+      font-size: 20px;
+    }
+  
+    button.send__pointer {
+      font-size: 20px;
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    h1.hire__text {
+      font-size: 64px;
+    }
+  
+    h2.hire__text {
+      font-size: 32px;
+      font-weight: 700;
+    }
+  
+    p.hire__text {
+      font-size: 20px;
+    }
+  
+    .contact_sub_text {
+      font-size: 22px;
+    }
+  
+    button.send__pointer {
+      font-size: 22px;
+    }
+  }
+  
