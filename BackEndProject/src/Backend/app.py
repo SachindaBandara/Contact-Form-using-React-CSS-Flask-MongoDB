@@ -7,8 +7,8 @@ from pymongo import MongoClient
 app = Flask(__name__)
 CORS(app)
 
-#app.config['MONGO_URI'] = 'mongodb://localhost/contact_us'
-#mongo = PyMongo(app)
+# app.config['MONGO_URI'] = 'mongodb://localhost/contact_us'
+# mongo = PyMongo(app)
 
 # Connect to MongoDB ( Can add many collections )
 client = MongoClient("mongodb://localhost:27017/")
