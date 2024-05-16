@@ -7,3 +7,19 @@
       justify-content: center;
       align-items: center;
     }
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+  }
+  
+  body{
+      background-color: white;
+  }
+  
+  .container{
+      padding-left: 5%;
+      padding-right: 5%;
+  }
